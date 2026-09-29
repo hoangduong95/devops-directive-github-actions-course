@@ -1,0 +1,22 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "version": "1.10.1",
+      "resolved": "ghcr.io/devcontainers/features/docker-outside-of-docker@sha256:698f5900fac471e046c6e9d4333fec88c0e8d952c713494fa0712dce80baeca0",
+      "integrity": "sha256:698f5900fac471e046c6e9d4333fec88c0e8d952c713494fa0712dce80baeca0"
+    },
+    "ghcr.io/devcontainers/features/nix": {
+      "version": "1.4.0",
+      "resolved": "ghcr.io/devcontainers/features/nix@sha256:92bde69ceec2ac0fe75bcce99b754f8867bf93bef77c9ace0f49a4296473c329",
+      "integrity": "sha256:92bde69ceec2ac0fe75bcce99b754f8867bf93bef77c9ace0f49a4296473c329"
+    },
+    "ghcr.io/dlouwers/devcontainer-features/devbox:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/dlouwers/devcontainer-features/devbox@sha256:4b72a3c8cd3f89e74d888f9c1e30aa1a8fcf86cc4e4088a302dcff052a56b649",
+      "integrity": "sha256:4b72a3c8cd3f89e74d888f9c1e30aa1a8fcf86cc4e4088a302dcff052a56b649",
+      "dependsOn": [
+        "ghcr.io/devcontainers/features/nix"
+      ]
+    }
+  }
+}
